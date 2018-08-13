@@ -1,0 +1,8 @@
+{
+  //This key should have been stored in the user secrets on the developer environment and in machine.config or environment variable in production environment
+  "Tokens": {
+    "Key": "sdafae,raeG,erGAER;haeH;EthE;arwgARgaeuiowfej",
+    "Issuer": "localHost",
+    "Audience": "users"
+  }
+}
