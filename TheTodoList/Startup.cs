@@ -91,7 +91,7 @@ namespace TheTodoList
 
             app.UseMvc();
 
-            //Below I'm not calling app.UseXXX so I won't add a middleware to the pipeline but I will only execute this code at startup
+            //Below I'm not calling app.UseXXX so I won't add a middleware to the pipeline but I will only execute some code at startup
             if (env.IsDevelopment())
             {
                 using(var scope = app.ApplicationServices.CreateScope())
